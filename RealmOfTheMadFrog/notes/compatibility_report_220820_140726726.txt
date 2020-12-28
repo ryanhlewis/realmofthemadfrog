@@ -1,0 +1,110 @@
+Converting GML script: ${project_dir}\scripts\inventory_int\inventory_int.gml
+Converted description /// @description  inventory_int(slot width, slot height)/// @param slot width
+/// @param  slot height
+
+Converting GML script: ${project_dir}\scripts\inventory_draw\inventory_draw.gml
+Converted builtin - line 103: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 104: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted description /// @description  inventory_draw(x,y, spritebox, sprite_infobox, slot_gap, text_color)/// @param x
+/// @param y
+/// @param  spritebox
+/// @param  sprite_infobox
+/// @param  slot_gap
+/// @param  text_color
+
+Converting GML script: ${project_dir}\scripts\inventory_clear\inventory_clear.gml
+Converted description /// @description  inventory_clear()
+
+Converting GML script: ${project_dir}\scripts\inventory_load\inventory_load.gml
+Converted description /// @description  inventory_load(filename)/// @param filename
+
+Converting GML script: ${project_dir}\scripts\inventory_save\inventory_save.gml
+Converted description /// @description  inventory_save(filename)/// @param filename
+
+Converting GML script: ${project_dir}\scripts\inventory_read\inventory_read.gml
+Converted description /// @description  inventory_read(Typ,SlotID)/// @param Typ
+/// @param SlotID
+
+Converting GML script: ${project_dir}\scripts\inventory_sort\inventory_sort.gml
+Converted description /// @description  inventory_sort(typ, reserve)/// @param typ
+/// @param  reserve
+
+Converting GML script: ${project_dir}\scripts\inventory_delete_item\inventory_delete_item.gml
+Converted description /// @description inventory_delete_item(Item ID, Amount);/// @param Item ID
+/// @param  Amount
+
+Converting GML script: ${project_dir}\scripts\inventory_write\inventory_write.gml
+Converted description /// @description  inventory_write(Typ,SlotID,value)/// @param Typ
+/// @param SlotID
+/// @param value
+
+Converting GML script: ${project_dir}\scripts\inventory_item_add\inventory_item_add.gml
+Converted description /// @description  inventory_item_add(ID, Amount)/// @param ID
+/// @param  Amount
+
+Converting GML script: ${project_dir}\scripts\inventory_item_clear\inventory_item_clear.gml
+Converted description /// @description  inventory_item_clear(SlotID)/// @param SlotID
+
+Converting GML script: ${project_dir}\scripts\inventory_item_delete\inventory_item_delete.gml
+Converted description /// @description  inventory_item_delete(SlotID, Amount)/// @param SlotID
+/// @param  Amount
+
+Converting GML script: ${project_dir}\scripts\inventory_item_drop\inventory_item_drop.gml
+Converted description /// @description  inventory_item_drop(SlotID,Amount,x,y,objdrop)/// @param SlotID
+/// @param Amount
+/// @param x
+/// @param y
+/// @param objdrop
+
+Converting GML script: ${project_dir}\scripts\inventory_item_exchange\inventory_item_exchange.gml
+Converted description /// @description  inventory_item_exchange(slot_id1, slot_id2)/// @param slot_id1
+/// @param  slot_id2
+
+Converting GML script: ${project_dir}\scripts\inventory_item_find\inventory_item_find.gml
+Converted description /// @description  inventory_item_find(ID)/// @param ID
+
+Converting GML script: ${project_dir}\scripts\inventory_item_use\inventory_item_use.gml
+Converted description /// @description  inventory_item_use(SlotID)/// @param SlotID
+
+Converting GML script: ${project_dir}\scripts\item_add\item_add.gml
+Converted description /// @description  item_add(ID,ID-Info,value)/// @param ID
+/// @param ID-Info
+/// @param value
+
+Converting GML script: ${project_dir}\scripts\item_id_read\item_id_read.gml
+Converted description /// @description  item_id_read(ID,ID_Info)/// @param ID
+/// @param ID_Info
+
+Converting GML script: ${project_dir}\scripts\draw_panel\draw_panel.gml
+Converted description /// @description  draw_panel(sprite, index, x, y, width, height, size);/// @param sprite
+/// @param  index
+/// @param  x
+/// @param  y
+/// @param  width
+/// @param  height
+/// @param  size
+
+Converting GML script: ${project_dir}\scripts\draw_shadow\draw_shadow.gml
+Converted description /// @description  draw_shadow(x,y,alpha,sprite,extrasize)/// @param x
+/// @param y
+/// @param alpha
+/// @param sprite
+/// @param extrasize
+
+Converting GML script: ${project_dir}\objects\obj_example\Create_0.gml
+Converted description /// @description Small Tutorial
+
+Converting GML script: ${project_dir}\objects\obj_example\Step_0.gml
+Converted builtin - line 49: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 49: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted string - line 18: "\inventory.dat" -> "\\inventory.dat"
+Converted string - line 24: "\inventory.dat" -> "\\inventory.dat"
+
+Converting GML script: ${project_dir}\objects\obj_example\Draw_0.gml
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
