@@ -12,9 +12,9 @@ The whole game concept behind both ROTMF and ROTMG is a 2D character based insid
 
 My first task to emulate was the multiplayer, and I used a pre-existing networking demo to get this done, and programmed in support for a side menu similar to ROTMG, an inventory system, as well as client and server calls for enemy positions, attacks, and player missiles. Let me just say: networking is a pain.
 
-The reason I discontinued this is not because of a lack of motivation- but rather a lack of support from the side of the visual client I was using to put it together: GameMaker. GameMaker Studio 2 does not officially support multiplayer games- and so to simply test if the networking was working properly, I had to compile the game, then run multiple instances of it, take notes, and repeat. This was painstakingly slow, and having to compile 30+ times to ensure something is working is not a job anyone enjoys.
+The reason I discontinued this is not because of a lack of motivation- but rather a lack of support from the side of the visual client I was using to put it together: GameMaker. GameMaker Studio 2 does not officially support multiplayer games- and so to simply test if the networking was working properly, I had to compile the game, then run multiple instances of it, take notes, and repeat. This was painstakingly slow, and having to compile 20+ times to ensure something is working is not a job anyone enjoys.
 
-And to make this game, I wanted to enjoy it. This lack of support eroded at my spirits, and I eventually stopped working on the game. However, all 30+ revisions are available on this Github, along with the source code files, if anyone wants to try their own hand. Until GM2 includes support for multiplayer testing, however, I won't be trying again anytime soon.
+And to make this game, I wanted to enjoy it. This lack of support eroded at my spirits, and I eventually stopped working on the game. However, all 20+ revisions are available on this Github, along with the source code files, if anyone wants to try their own hand. Until GM2 includes support for multiplayer testing, however, I won't be trying again anytime soon.
 
 
 
